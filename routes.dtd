@@ -1,0 +1,26 @@
+<!ELEMENT routes (route+)>
+<!ELEMENT route (routeName,visitPoints,reservations,prices)>
+<!ELEMENT routeName (#PCDATA)>
+<!ELEMENT visitPoints (visitPoint+)>
+<!ELEMENT visitPoint (visitPointName,description,resources)>
+<!ELEMENT visitPointName (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT resources (resource+)>
+<!ELEMENT resource (url,time?)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ATTLIST visitPoint visitOrder CDATA #REQUIRED>
+<!ATTLIST description language CDATA #REQUIRED>
+<!ATTLIST resource type CDATA #REQUIRED
+                   language CDATA #IMPLIED>
+<!ELEMENT reservations (reservation+)>
+<!ELEMENT reservation (firstName,lastName,date,time,priceType)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT priceType (#PCDATA)>
+<!ELEMENT prices (price+)>
+<!ELEMENT price (type,personPrice)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT personPrice (#PCDATA)>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE routes SYSTEM "routes.dtd">
+
+<routes>
+    <route>
+        <routeName>Triana y Vegueta clásica</routeName>
+        <visitPoints>
+            <visitPoint visitOrder="1">
+                <visitPointName>Gabinete Literario</visitPointName>
+                <description language="spanish">
+                    El Gabinete Literario de Las Palmas de Gran Canaria situado en dicha ciudad es una institución cultural 
+                    cuyo objetivo es la creación y difusión de manifestaciones artísticas, así como la gestión de eventos culturales 
+                    y socioempresariales. Desde 1997 su presidente es Juan José Benítez de Lugo y Massieu
+                </description>
+                <resources>
+                    <resource type="video" language="spanish">
+                        <url>http://www.trianaveguetavr.com/route/1/visitpoint/1/resource/1</url>
+                        <time>3:20</time>
+                    </resource>
+                    <resource type="VRscene" language="spanish">
+                        <url>http://www.trianaveguetavr.com/route/1/visitpoint/1/resource/2</url>
+                    </resource>
+                    <resource type="photo">
+                        <url>http://www.trianaveguetavr.com/route/1/visitpoint/1/resource/3</url>
+                    </resource>
+                </resources>
+            </visitPoint>
+            <visitPoint visitOrder="2">
+                <visitPointName>Teatro Pérez Galdós</visitPointName>
+                <description language="spanish">
+                    El Teatro Pérez Galdós es el principal recinto teatral de la ciudad española de Las Palmas de Gran Canaria, 
+                    sede permanente del Festival de Ópera de Las Palmas de Gran Canaria Alfredo Kraus.
+                </description>
+                <resources>
+                    <resource type="video" language="spanish">
+                        <url>http://www.trianaveguetavr.com/route/2/visitpoint/2/resource/1</url>
+                        <time>3:20</time>
+                    </resource>
+                    <resource type="VRscene" language="spanish">
+                        <url>http://www.trianaveguetavr.com/route/2/visitpoint/2/resource/2</url>
+                    </resource>
+                    <resource type="photo">
+                        <url>http://www.trianaveguetavr.com/route/2/visitpoint/2/resource/3</url>
+                    </resource>
+                    <resource type="photo">
+                        <url>http://www.trianaveguetavr.com/route/2/visitpoint/2/resource/4</url>
+                    </resource>
+                </resources>
+            </visitPoint>
+        </visitPoints>
+        <reservations>
+            <reservation>
+                <firstName>Pepito</firstName>
+                <lastName>Pérez</lastName>
+                <date>20201102</date>
+                <time>18:30</time>
+                <priceType>normal</priceType>
+            </reservation>
+            <reservation>
+                <firstName>Juan</firstName>
+                <lastName>Sinmiedo</lastName>
+                <date>20201102</date>
+                <time>18:30</time>
+                <priceType>normal</priceType>
+            </reservation>
+        </reservations>
+        <prices>
+            <price>
+                <type>normal</type>
+                <personPrice>10€</personPrice>
+            </price>
+            <price>
+                <type>under 10</type>
+                <personPrice>5€</personPrice>
+            </price>
+            <price>
+                <type>over 65</type>
+                <personPrice>6€</personPrice>
+            </price>
+        </prices>
+    </route>
+</routes>
